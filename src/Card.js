@@ -9,7 +9,7 @@ const Card=(props)=> {
 
     <div className="col mb-5">
         <div className='card h-100'>
-        <img src={props.image} className="card-img-top" alt=""/>
+        <img src={props.image} className="card-img-top" alt={props.image}/>
        
     
        <div className="card-body p-4">

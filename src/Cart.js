@@ -27,7 +27,7 @@ const Cart = () => {
                 return(
                  <tr key={index}>
                   <td>
-                    <img src={item.image}></img>
+                    <img src={item.image} alt={item.image}></img>
                   </td>
                   <td>{item.title}</td>
                   <td>$ {item.price}</td>

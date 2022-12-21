@@ -11,20 +11,20 @@ import Cart from './Cart'
 <div className='nav-flex'>
     <nav className='navbar navbar-expand-lg navbar-dark'>
         <div className='contianer px-4 px-lg-5'>
-            <a className='navbar-brand' >Go-Na Shop</a>           
+            <h1 className='navbar-brand' >Go-Na Shop</h1>           
         </div>
     </nav>
 
         <div className='nav-right'>
                  
                 <li className='nav-item'>
-                    <a className='nav-link active text-white' aria-current='page'>Home</a>
+                    <h3 className='nav-link active text-white'>Home</h3>
                 </li>
                 <li className='nav-item'>
-                <a className='nav-link text-white' aria-current='page'>About</a>
+                <h3 className='nav-link text-white' aria-current='page'>About</h3>
                 </li>
                 <li className='nav-item dropdown'>
-                <a className='nav-link text-white' aria-current='page'>Shop</a>
+                <h3 className='nav-link text-white' aria-current='page'>Shop</h3>
                 </li>
           
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from './Card'
 import Data from  './Data'
-import {Routes,Route,Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 import Cart from './Cart'
 
  const Home=() => {

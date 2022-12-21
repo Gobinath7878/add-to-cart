@@ -6,12 +6,8 @@ const Cart = () => {
         isEmpty,
         totalUniqueItems,
         items,
-        totalItems,
-        cartTotal,
         updateItemQuantity,
         removeItem,
-        emptyCart,
-        addItem,
     }=useCart();
     if(isEmpty) return (
       <div className='text-center mt-5 cart-containers'>
